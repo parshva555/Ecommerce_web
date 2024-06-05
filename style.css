@@ -6,4 +6,33 @@ button, button:focus {
   box-shadow: none !important;
 }
 
+/* typography classes */
+.font-mukta {
+  font-family: "font-mukta", cursive;
+}
+
+.font-rale {
+  font-family: "font-raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "font-rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
