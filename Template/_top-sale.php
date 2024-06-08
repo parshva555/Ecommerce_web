@@ -1,8 +1,9 @@
 <!-- Top Sale -->
 <?php
     $product_shuffle = $product->getData();
+    shuffle($product_shuffle)
 ?>
-?>
+
 <section id="top-sale">
     <div class="container py-5">
         <h4 class="font-rubik font-size-20">Top Sale</h4>
