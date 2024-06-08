@@ -24,6 +24,23 @@ class Cart
                 $result = $this->db->con->query($query_string);
                 return $result;
             }
+            // to get user id and item id and insert into cart table
         }
     }
+    public  function addToCart($userid, $itemid){
+        if (isset($userid) && isset($itemid)){
+            $params = array(
+                "user_id" => $userid,
+                "item_id" => $itemid
+            );
+
+            // insert data into cart
+            $result = $this->insertIntoCart($params);
+            if ($result){
+                // Reload Page
+                header("Location: " . $_SERVER['PHP_SELF']);
+            }
+        }
+    }
+
 }
