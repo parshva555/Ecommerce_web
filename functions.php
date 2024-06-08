@@ -13,8 +13,8 @@ $product = new Product($db);
 //Cart object
 $Cart = new Cart($db);
 $arr = array(
-    "user_id" => "1",
-    "item_id" => 2
+    "user_id" =>1,
+    "item_id" => 4
 );
 $Cart->insertIntoCart($arr);
 
