@@ -1,6 +1,6 @@
 <!-- Top Sale -->
 <?php
-    $product_shuffle = $product->getData();
+
     shuffle($product_shuffle);
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         if (isset($_POST['top_sale_submit'])){
